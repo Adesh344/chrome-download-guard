@@ -63,7 +63,7 @@ async function scanFileAndCheck(filePath) {
           if (stats.malicious > 0 || stats.suspicious > 0) {
             return true;
           }
-
+          //
           if (res.data.data.attributes.status === 'completed') break;
         }
 
