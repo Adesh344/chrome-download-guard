@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Download Scanner",
+    "version": "1.0",
+    "description": "Scan downloaded files using VirusTotal",
+    "permissions": ["downloads"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["http://localhost:3000/"]
+  }
+  
